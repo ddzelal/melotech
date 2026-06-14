@@ -1,0 +1,15 @@
+{
+  "enabledMcpjsonServers": ["supabase", "magicuidesign-mcp", "playwright", "vercel"],
+  "permissions": {
+    "allow": [
+      "Bash(pnpm lint)",
+      "Bash(pnpm dev)",
+      "Bash(pnpm build)",
+      "Bash(curl:*)",
+      "Bash(jq:*)",
+      "mcp__supabase__list_tables",
+      "mcp__supabase__execute_sql",
+      "mcp__magicuidesign-mcp__*"
+    ]
+  }
+}
